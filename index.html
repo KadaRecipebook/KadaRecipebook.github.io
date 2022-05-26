@@ -42,10 +42,13 @@
           vertical-align:middle;
           background-color:lemonchiffon;
         }
-        .one {width:400px; height:400px; margin-top:40px; margin-bottom:20px; margin-left:45px; margin-right:20px; font-size:18;}
-        .two {width:400px; height:400px; margin-top:40px; margin-bottom:20px; margin-left:20px; margin-right:20px; font-size:18;}
-        .three {width:400px; height:400px; margin-top:20px; margin-bottom:40px; margin-left:45px; margin-right:20px; font-size:18;}
-        .four {width:400px; height:400px; margin-top:20px; margin-bottom:40px; margin-left:20px; margin-right:20px; font-size:18;}
+
+        .outer1 {background-color:lemonchiffon;}
+        .outer1 > * {
+        display:inline-block;
+        vertical-align:middle;
+        background-color:lemonchiffon;
+        }
     </style>
 
     <div style="background-color:darkkhaki; color:darkolivegreen;">
@@ -53,68 +56,82 @@
     </div>
         
     <div class="outer">
-        <div class="one">
-            <div style="margin-left: 5px; margin-right: 5px">
-                <div style="float: right; margin-top: 5px;">
-                    <!-- <img src="" 
-                        style="border: 5px solid darkolivegreen;"
-                        width="px" 
-                        height="px"> -->
+        <!-- Pao de Queijo -->
+        <div class="card" style="width: 44%; height: 60%; background-color: lemonchiffon; color: darkgoldenrod; font-size: 18; margin-left: 3.7%; margin-top: 3.7%; margin-bottom: 0%;">
+            <div class="outer1">
+                <div>
+                    <img src="https://www.mycookingjourney.com/wp-content/uploads/2019/01/brazilian-cheese-bread-38_1200x1200-480x270.jpg" 
+                        class="card-img-top" alt="P&#227;o de Queijo" style="width:100%; height:50%;">
                 </div>
                 <div>
-                    <a id="P&#227;o de Queijo" style="color:darkgoldenrod"><u>P&#227;o de Queijo</u></a>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
+                    <img src="https://www.fmitk.com/wp-content/uploads/2013/10/paodequeijo8.jpg"
+                        class="card-img-top" alt="P&#227;o de Queijo" style="width:120%; height:50%"> 
                 </div>
-                
             </div>
-        </div> 
-        <div class="two">
-            <div style="margin-left: 5px; margin-right: 5px;">
-                <div style="float: right; margin-top: 5px;">
-                    <img src="https://izzycooking.com/wp-content/uploads/2020/12/Strawberry-Matcha-4-768x1152.jpg" 
-                        style="border: 5px solid darkolivegreen;"
-                        width="150px" 
-                        height="200px"> 
+            <br>
+            <div class="card-body" style="margin-left: 5px">
+                <a id="P&#227;o de Queijo" style="color:darkgoldenrod"><u>P&#227;o de Queijo</u></a>
+                <p class="card-text">A delicious Brazilian cheese bread.</p>
+                <a href="file:///C:/Users/Student/Desktop/Aya%20Westerling/Recipe_Template.html" target="_blank" class="btn btn-primary">Click here to see recipe</a>
+            </div>
+        </div>    
+        <!-- Lasagna -->
+        <div class="card" style="width: 44%; height: 60%; background-color: lemonchiffon; color: darkgoldenrod; font-size: 18; margin-left: 3.7%; margin-top: 3.7%; margin-bottom: 0%;">
+            <div class="outer1">
+                <div>
+                    <img src="https://cupcakesandkalechips.com/wp-content/uploads/2018/10/Worlds-Best-Lasagna-Recipe-16.jpg" 
+                        class="card-img-top" alt="Lasagna" style="width:100%; height:50%;">
                 </div>
                 <div>
-                    <a id="Lasagna" style="color:darkgoldenrod"><u>Lasagna</u></a>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
+                    <img src="https://thestayathomechef.com/wp-content/uploads/2017/08/Most-Amazing-Lasagna-2-e1574792735811.jpg"
+                        class="card-img-top" alt="Lasagna" style="width:100%; height:50%"> 
                 </div>
             </div>
-        </div>
-        <div class="three">
-            <div style="margin-left: 5px; margin-right: 5px">
-                <div style="float: right; margin-top: 5px;">
-                    <!-- <img src="" 
-                        style="border: 5px solid darkolivegreen"
-                        width="px" 
-                        height="px"> -->
+            <br>
+            <div class="card-body" style="margin-left: 5px">
+                <a id="Lasagna" style="color:darkgoldenrod"><u>Lasagna</u></a>
+                <p class="card-text">A delicious, perfect balance of noodles, meat, tomato, and cheese.</p>
+                <a href="file:///C:/Users/Student/Desktop/Aya%20Westerling/LasagnaRecipe.html" target="_blank" class="btn btn-primary">Click here to see recipe</a>
+            </div>
+        </div>             
+        <!-- Gyoza -->
+        <div class="card" style="width: 44%; height: 60%; background-color: lemonchiffon; color: darkgoldenrod; font-size: 18; margin-left: 3.7%; margin-top: 0%; margin-bottom: 0%;">
+            <div class="outer1">
+                <div>
+                    <img src="https://gatherlemons.com/wp-content/uploads/2018/04/gyoza5.jpg" 
+                        class="card-img-top" alt="Gyoza" style="width:100%; height:50%;">
                 </div>
                 <div>
-                    <a id="Gyoza" style="color:darkgoldenrod"><u>Gyoza</u></a>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
+                    <img src="https://www.justonecookbook.com/wp-content/uploads/2011/02/gyoza-step-by-step-29.jpg"
+                        class="card-img-top" alt="Gyoza" style="width:100%; height:50%"> 
                 </div>
             </div>
-        </div>
-        <div class="four">
-            <div style="margin-left: 5px; margin-right: 5px">
-                <div style="float: right; margin-top: 5px;">
-                    <!-- <img src="" 
-                        style="border: 5px solid darkolivegreen"
-                        width="px" 
-                        height="px"> -->
+            <br>
+            <div class="card-body" style="margin-left: 5px">
+                <a id="Gyoza" style="color:darkgoldenrod"><u>Gyoza</u></a>
+                <p class="card-text">A savory, salty, flavorful noodle dish.</p>
+                <a href="file:///C:/Users/Student/Desktop/Aya%20Westerling/GyozaRecipe.html" target="_blank" class="btn btn-primary">Click here to see recipe</a>
+            </div>
+        </div>           
+        <!-- Cold Noodles -->
+        <div class="card" style="width: 44%; height: 60%; background-color: lemonchiffon; color: darkgoldenrod; font-size: 18; margin-left: 3.7%; margin-top: 3.7%; margin-bottom: 3.7%;">
+            <div class="outer1">
+                <div>
+                    <img src="https://assets3.thrillist.com/v1/image/2831726/792x528/scale;webp=auto;jpeg_quality=60.jpg" 
+                        class="card-img-top" alt="Cold Noodle Dish" style="width: 100%; height:50%">
                 </div>
                 <div>
-                    <a id="Cold Noodle Dish" style="color:darkgoldenrod"><u>Cold Noodle Dish</u></a>
-                    <p style="color:darkgoldenrod">This dish is savory.</p>
+                    <img src="https://www.thespruceeats.com/thmb/RHz-eqzyyuPyj83FyFRSWTAm60w=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/hiyashi-chuka-recipe-2031218-hero-01-3c718c9fd8f342a8b4f62ee8905eaf21.jpg" 
+                        class="card-img-top" alt="Cold Noodle Dish" style="width: 100%; height:50%">
                 </div>
             </div>
-        </div>
+            <br>
+            <div class="card-body" style="margin-left: 5px">
+                <a id="Cold Noodle Dish" style="color:darkgoldenrod"><u>Cold Noodle Dish</u></a>
+                <p class="card-text">An easy dinner dish, perfect for summer.</p>
+                <a href="file:///C:/Users/Student/Desktop/Aya%20Westerling/ColdNoodlesRecipe.html" target="_blank" class="btn btn-primary">Click here to see recipe</a>
+            </div>
+        </div>        
     </div>
 
     <div style="background-color:darkkhaki; color:darkolivegreen;">
@@ -122,60 +139,80 @@
     </div>
         
     <div class="outer">
-        <div class="one">
-            <div style="margin-left: 5px; margin-right: 5px">
-                <div style="float: right; margin-top: 5px;">
-                    <!-- <img src="" 
-                        style="border: 5px solid darkolivegreen"
-                        width="px" 
-                        height="px"> -->
+        <!-- Banana Bread -->
+        <div class="card" style="width: 44%; height: 60%; background-color: lemonchiffon; color: darkgoldenrod; font-size: 18; margin-left: 3.7%; margin-top: 3.7%; margin-bottom: 0%;">
+            <div class="outer1">
+                <div>
+                    <img src="https://preppykitchen.com/wp-content/uploads/2019/10/Chocolate-Chip-Banana-Bread-Recipe.jpg" 
+                        class="card-img-top" alt="Banana Bread" style="width: 115%; height:50%; margin-right: 2%">
                 </div>
                 <div>
-                    <a id="Banana Bread" style="color:darkgoldenrod"><u>Banana Bread</u></a>
-                    <p style="color:darkgoldenrod">This dish is sweet.</p>
+                    <img src="https://experiencelife.lifetime.life/wp-content/uploads/2021/10/dec21-cc-buckwheat-chocolate-chip-banana-bread.jpg" 
+                        class="card-img-top" alt="Banana Bread" style="width: 112%; height:50%">
                 </div>
             </div>
-        </div>
-        <div class="two">
-            <div style="margin-left: 5px; margin-right: 5px">
-                <div style="float: right; margin-top: 5px;">
-                    <!-- <img src="" 
-                        style="border: 5px solid darkolivegreen"
-                        width="px" 
-                        height="px"> -->
+            <br>
+            <div class="card-body" style="margin-left: 5px">
+                <a id="Banana Bread" style="color:darkgoldenrod"><u>Banana Bread</u></a>
+                <p class="card-text">A soft, sweet bread for breakfast or dessert.</p>
+                <a href="file:///C:/Users/Student/Desktop/Aya%20Westerling/BananaBreadRecipe.html" target="_blank" class="btn btn-primary">Click here to see recipe</a>
+            </div>
+        </div>                
+        <!-- Muffins -->
+        <div class="card" style="width: 44%; height: 60%; background-color: lemonchiffon; color: darkgoldenrod; font-size: 18; margin-left: 3.7%; margin-top: 3.7%; margin-bottom: 0%;">
+            <div class="outer1">
+                <div>
+                    <img src="https://www.eatwell101.com/wp-content/uploads/2019/08/Pumpkin-Chocolate-Chip-Muffins.jpg" 
+                        class="card-img-top" alt="Pumpkin Chocolate Chip Muffins" style="width: 100%; height:50%">
                 </div>
                 <div>
-                    <a id="Pumpkin Chocolate Chip Muffins" style="color:darkgoldenrod"><u>Pumpkin Chocolate Chip Muffins</u></a>
-                    <p style="color:darkgoldenrod">This dish is sweet.</p>
+                    <img src="https://www.movedaily.ca/wp-content/uploads/2021/09/Cranberry-pumpkin-walnut-muffins.jpg" 
+                        class="card-img-top" alt="Pumpkin Chocolate Chip Muffins" style="width: 100%; height:50%">
                 </div>
             </div>
-        </div>
-        <div class="three">
-            <div style="margin-left: 5px; margin-right: 5px">
-                <div style="float: right; margin-top: 5px;">
-                   <!-- <img src="" 
-                        style="border: 5px solid darkolivegreen"
-                        width="px" 
-                        height="px"> -->
-                </div>
-                <div>
-                    <a id="Scones" style="color:darkgoldenrod"><u>Scones</u></a>
-                    <p style="color:darkgoldenrod">This dish is sweet.</p>
-                </div>
+            <br>
+            <div class="card-body" style="margin-left: 5px">
+                <a id="Pumpkin Chocolate Chip Muffins" style="color:darkgoldenrod"><u>Pumpkin Chocolate Chip Muffins</u></a>
+                <p class="card-text">A soft, sweet baked good for breakfast.</p>
+                <a href="file:///C:/Users/Student/Desktop/Aya%20Westerling/MuffinsRecipe.html" target="_blank" class="btn btn-primary">Click here to see recipe</a>
             </div>
         </div>
-        <div class="four">
-            <div style="margin-left: 5px; margin-right: 5px">
-                <div style="float: right; margin-top: 5px;">
-                    <!-- <img src="" 
-                        style="border: 5px solid darkolivegreen"
-                        width="px" 
-                        height="px"> -->
+        <!-- Scones -->
+        <div class="card" style="width: 44%; height: 60%; background-color: lemonchiffon; color: darkgoldenrod; font-size: 18; margin-left: 3.7%; margin-top: 3.7%; margin-bottom: 3.7%;">
+            <div class="outer1">
+                <div>
+                    <img src="https://www.savingdessert.com/wp-content/uploads/2011/07/Lemon-Blueberry-Scones-2.jpg" 
+                        class="card-img-top" alt="Scones" style="width: 100%; height:50%">
                 </div>
                 <div>
-                    <a id="Lemon Bread" style="color:darkgoldenrod"><u>Lemon Bread</u></a>
-                    <p style="color:darkgoldenrod">This dish is sweet.</p>
+                    <img src="https://cdn.whatsgabycooking.com/wp-content/uploads/2011/10/WGC-Pumpkin-Chocolate-Chip-Scones-copy-2.jpg" 
+                        class="card-img-top" alt="Scones" style="width: 100%; height:50%">
                 </div>
+            </div>
+            <br>
+            <div class="card-body" style="margin-left: 5px">
+                <a id="Scones" style="color:darkgoldenrod"><u>Scones</u></a>
+                <p class="card-text">A sweet breakfast pastry in a variety of flavors.</p>
+                <a href="file:///C:/Users/Student/Desktop/Aya%20Westerling/SconesRecipe.html" target="_blank" class="btn btn-primary">Click here to see recipe</a>
+            </div>
+        </div>
+        <!-- Lemon Bread -->
+        <div class="card" style="width: 44%; height: 60%; background-color: lemonchiffon; color: darkgoldenrod; font-size: 18; margin-left: 3.7%; margin-top: 3.7%; margin-bottom: 3.7%;">
+            <div class="outer1">
+                <div>
+                    <img src="https://shesnotcookin.com/wp-content/uploads/2021/02/Hor-Featured-Image-Glazed-Lemon-Loaf-1.jpg" 
+                        class="card-img-top" alt="Lemon Bread" style="width: 100%; height:50%">
+                </div>
+                <div>
+                    <img src="https://www.thespruceeats.com/thmb/iYxKOmEy-0uIQRNW7zeEaMu72ok=/4494x3000/filters:no_upscale():max_bytes(150000):strip_icc()/lemon-glaze-icing-recipe-101295-step-03-5c3bc4b946e0fb0001fc3eb8.jpg" 
+                        class="card-img-top" alt="Lemon Bread" style="width: 100%; height:50%">
+                </div>
+            </div>
+            <br>
+            <div class="card-body" style="margin-left: 5px">
+                <a id="Lemon Bread" style="color:darkgoldenrod"><u>Lemon Bread</u></a>
+                <p class="card-text">A sweet, citrusy bread with a tangy glaze.</p>
+                <a href="file:///C:/Users/Student/Desktop/Aya%20Westerling/LemonBread.html" target="_blank" class="btn btn-primary">Click here to see recipe</a>
             </div>
         </div>
     </div>
